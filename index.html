@@ -61,6 +61,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% include dc/intro.html %}
 {% elsif page.carpentry == "lc" %}
   {% include lc/intro.html %}
+{% elsif page.carpentry == "jax" %}
+  {% include jax/intro.html %}
 {% endif %}
 
 <!--
@@ -292,7 +294,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
-<div id="shell"> <!-- Start of 'shell' section. -->
+<!-- 
+<div id="shell"> <!~~ Start of 'shell' section. ~~>
   <h3>The Bash Shell</h3>
 
   <p>
@@ -308,12 +311,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
         <li>Run the installer and follow the steps bellow:
           <ol>
-            <!-- Git 2.8.2 Setup -->
-            <!-- Information -->
+            <!~~ Git 2.8.2 Setup ~~>
+            <!~~ Information ~~>
             <li>Click on "Next".</li>
-            <!-- Select Components -->
+            <!~~ Select Components ~~>
             <li>Click on "Next".</li>
-            <!-- Adjusting your PATH environment -->
+            <!~~ Adjusting your PATH environment ~~>
             <li>
               <strong>
                 Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
@@ -321,24 +324,24 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
                 If you forgot to do this programs that you need for the workshop will not work properly.
                 If this happens rerun the installer and select the appropriate option.
             </li>
-            <!-- Choosing the SSH executable -->
+            <!~~ Choosing the SSH executable ~~>
             <li>Click on "Next".</li>
-            <!-- Configuring the line ending conversions -->
+            <!~~ Configuring the line ending conversions ~~>
             <li>
               <strong>
                 Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
               </strong>
             </li>
-            <!-- Configuring the terminal emulator to use with Git Bash -->
+            <!~~ Configuring the terminal emulator to use with Git Bash ~~>
             <li>
               <strong>
                 Keep "Use Windows' default console window" selected and click on "Next".
               </strong>
             </li>
-            <!-- Configuring experimental performance tweaks -->
+            <!~~ Configuring experimental performance tweaks ~~>
             <li>Click on "Install".</li>
-            <!-- Installing -->
-            <!-- Completing the Git Setup Wizard -->
+            <!~~ Installing ~~>
+            <!~~ Completing the Git Setup Wizard ~~>
             <li>Click on "Finish".</li>
           </ol>
         </li>
@@ -380,10 +383,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       </p>
     </div>
   </div>
-</div> <!-- End of 'shell' section. -->
+</div> <!~~ End of 'shell' section. ~~>
 
-<div id="git"> <!-- Start of 'Git' section. GitHub browser compatability
-           is given at https://help.github.com/articles/supported-browsers/-->
+<div id="git"> <!~~ Start of 'Git' section. GitHub browser compatability
+           is given at https://help.github.com/articles/supported-browsers/~~>
   <h3>Git</h3>
   <p>
     Git is a version control system that lets you track who made changes
@@ -436,9 +439,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       </p>
     </div>
   </div>
-</div> <!-- End of 'Git' section. -->
+</div> <!~~ End of 'Git' section. ~~>
 
-<div id="editor"> <!-- Start of 'editor' section. -->
+<div id="editor"> <!~~ Start of 'editor' section. ~~>
   <h3>Text Editor</h3>
 
   <p>
@@ -508,12 +511,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       </p>
     </div>
   </div>
-</div> <!-- End of 'editor' section. -->
+</div> <!~~ End of 'editor' section. ~~>
 
-<div id="python"> <!-- Start of 'Python' section. Remove the third paragraph if
+<div id="python"> <!~~ Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
            the IPython notebook.
-           Details at http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility -->
+           Details at http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility ~~>
   <h3>Python</h3>
 
   <p>
@@ -593,16 +596,16 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       </ol>
     </div>
   </div>
-<!--
+<!~~
   <p>
   Once you are done installing the software listed above,
   please go to <a href="setup/index.html">this page</a>,
   which has instructions on how to test that everything was installed correctly.
   </p>
--->
-</div> <!-- End of 'Python' section. -->
+~~>
+</div> <!~~ End of 'Python' section. ~~>
 
-<div id="r"> <!-- Start of 'R' section. -->
+<div id="r"> <!~~ Start of 'R' section. ~~>
   <h3>R</h3>
 
   <p>
@@ -651,9 +654,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       </p>
     </div>
   </div>
-</div> <!-- End of 'R' section. -->
+</div> <!~~ End of 'R' section. ~~>
 
-<div id="sql"> <!-- Start of 'SQLite' section. -->
+<div id="sql"> <!~~ Start of 'SQLite' section. ~~>
   <h3>SQLite</h3>
 
   <p>
@@ -697,9 +700,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <p><strong>If you installed Anaconda, it also has a copy of SQLite
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
-</div> <!-- End of 'SQLite' section. -->
+</div> <!~~ End of 'SQLite' section. ~~>
 
-<div id="openrefine"> <!-- Start of 'OpenRefine' section. -->
+<div id="openrefine"> <!~~ Start of 'OpenRefine' section. ~~>
   <h3>OpenRefine</h3>
   <p>
     For this lesson you will need <em>OpenRefine</em> and a
@@ -744,8 +747,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
     </div>
   </div>
-</div> <!-- End of 'OpenRefine' section. -->
+</div> <!~~ End of 'OpenRefine' section. ~~>
 
+ -->
 <!--
   Uncomment this section if you are using our virtual machine.
 
