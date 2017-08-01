@@ -3,7 +3,7 @@
 #------------------------------------------------------------
 
 # Which carpentry is this ("swc", "dc", or "lc", or "jax")?
-carpentry: "swc"
+carpentry: "jax"
 
 # Overall title for pages.
 title: "Workshop Title"
