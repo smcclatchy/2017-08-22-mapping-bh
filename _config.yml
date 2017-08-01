@@ -2,14 +2,14 @@
 # Values for this workshop.
 #------------------------------------------------------------
 
-# Which carpentry is this ("swc", "dc", or "lc")?
+# Which carpentry is this ("swc", "dc", or "lc", or "jax")?
 carpentry: "swc"
 
 # Overall title for pages.
 title: "Workshop Title"
 
 # Contact email address.
-email: lessons@software-carpentry.org
+email: susan.mcclatchy@jax.org
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -26,9 +26,11 @@ repository: <USERNAME>/<PROJECT>
 amy_site: "https://amy.software-carpentry.org/workshops"
 lc_site: "https://librarycarpentry.github.io/"
 dc_site: "http://datacarpentry.org"
+jax_site: "http://www.jax.org"
 swc_github: "https://github.com/swcarpentry"
 swc_site: "https://software-carpentry.org"
 swc_pages: "https://swcarpentry.github.io"
+jax_pages: "https://smcclatchy.github.io"
 template_repo: "https://github.com/swcarpentry/styles"
 example_repo: "https://github.com/swcarpentry/lesson-example"
 example_site: "https://swcarpentry.github.com/lesson-example"
