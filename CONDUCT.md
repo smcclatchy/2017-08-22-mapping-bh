@@ -3,6 +3,7 @@ layout: page
 title: "Code of Conduct"
 permalink: /conduct/
 ---
+
 As contributors and maintainers of this project,
 we pledge to respect all people who contribute through reporting issues,
 posting feature requests,
@@ -36,6 +37,6 @@ that are not aligned to our [Code of Conduct][coc].
 Project maintainers who do not follow the Code of Conduct may be removed from the project team.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior
-may be reported to the  <a href='mailto:{{contact}}'>workshop organizers</a>
+may be reported to you can [report them to the workshop organizer(s)][contact].
 
 {% include links.md %}
