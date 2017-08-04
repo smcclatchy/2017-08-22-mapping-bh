@@ -37,6 +37,8 @@ that are not aligned to our [Code of Conduct][coc].
 Project maintainers who do not follow the Code of Conduct may be removed from the project team.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior
-may be reported to you can [report them to the workshop organizer(s)][site.email].
+may be reported to you can [report them to the workshop organizer(s)][email].
 
 {% include links.md %}
+
+[email]: mailto:susan.mcclatchy@jax.org
